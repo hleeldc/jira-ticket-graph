@@ -55,8 +55,8 @@ In the above examples, you should get `am9obmRvZTpzZWNyZXQ=`.
 Installing NodeJS
 =================
 
-Linux distributions usually have a package for this, but I usually download a binary
-package from nodejs website and update my PATH variable to the bin directory of the
+Linux distributions usually have a nodejs package, but I usually download a binary
+package from nodejs website and update my PATH variable with the bin directory of the
 unpacked package.
 
 
