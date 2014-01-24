@@ -1,0 +1,17 @@
+<!doctype html>
+<html ng-app="issue-graph">
+<head>
+<title>test</title>
+</head>
+<body>
+	<input type="textarea" size="80" ng-model="key"></input>
+	<button ng-click="url='/tree/' + key">Load</button>
+	<div>issue: {{key}}</div>
+	<div>tree url: {{url}}</div>
+	<div svg-container="url">hello</div>
+
+	<script src="/js/angular.min.js"></script>
+	<script src="/js/app.js"></script>
+</body>
+</html>
+
