@@ -6,8 +6,15 @@ A web app for showing a group of related JIRA tickets as a graph.
 Overview of installation procedure
 ========================================
 
+Prerequisites:
+
+* Install nodejs if you have done so. See below.
+* Install json_reformat which is a part of jajl. See below.
+* Install graphviz.
+
+Setup and execution:
+
 * Clone and cd to the repository.
-* Install nodejs if you have done so.
 * Run `npm install`.
 * Create `scripts/apiurl.txt` file. See below for details.
 * Create `scripts/auth.txt` file. See below for details.
@@ -44,4 +51,19 @@ btoa("johndoe:secret")
 
 In the above examples, you should get `am9obmRvZTpzZWNyZXQ=`.
 
-    
+
+Installing NodeJS
+=================
+
+Linux distributions usually have a package for this, but I usually download a binary
+package from nodejs website and update my PATH variable to the bin directory of the
+unpacked package.
+
+
+Installing json_reformat
+========================
+
+json_reformat comes with yajl. `apt-get install yajl-tools` installed it for me on
+my debian machine.
+
+
